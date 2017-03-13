@@ -25,4 +25,7 @@ public class Role {
 
     @ManyToMany
     Set<Permission> permissions = new HashSet<>();
+
+    @ManyToMany
+    Set<Permission> menus = new HashSet<>();
 }
